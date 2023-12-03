@@ -8,11 +8,11 @@ selected_attribute = st.selectbox("Timelapse", ["temperature", "precipitation", 
 
 # Construction du chemin des images en fonction de la sélection de l'utilisateur
 if selected_attribute == "humidity":
-    images = f'cartes intepolees/{selected_date}_humidity_*.tif'
+    images = f'cartes interpolees/{selected_date}_humidity_*.tif'
 elif selected_attribute == "precipitation":
-    images = f'cartes intepolees/{selected_date}_precipitation_*.tif'
+    images = f'cartes interpolees/{selected_date}_precipitation_*.tif'
 elif selected_attribute == "temperature":
-    images = f'cartes intepolees/{selected_date}_temperature_*.tif'
+    images = f'cartes interpolees/{selected_date}_temperature_*.tif'
 else:
     st.write("Sélection non prise en charge.")
 
