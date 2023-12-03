@@ -1,6 +1,6 @@
 --find-links=https://girder.github.io/large_image_wheels GDAL
 # cartopy
-folium
+folium==0.13.0 
 geemap[extra]
 geopandas
 jupyter-server-proxy
@@ -19,6 +19,6 @@ tropycal
 base58==2.1.1
 rasterio
 numpy
-im1geio
+imageio
 # git+https://github.com/giswqs/leafmap
 # git+https://github.com/giswqs/geemap
