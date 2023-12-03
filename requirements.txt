@@ -16,7 +16,7 @@ streamlit-bokeh-events
 streamlit-folium 
 streamlit-keplergl
 tropycal
-base64
+base58==2.1.1
 rasterio
 numpy
 im1geio
