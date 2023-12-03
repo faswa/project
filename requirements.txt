@@ -1,16 +1,11 @@
 streamlit
-leafmap.foliumap
-os
+leafmap
 rasterio
 numpy
-base64
 imageio
 folium
 geopandas
-subprocess
-leafmap
 streamlit_folium
-rasterio.plot
 
 
 
